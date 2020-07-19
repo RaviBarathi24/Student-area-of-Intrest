@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+<head>
+<center>
+<u><i><b><h1 style="color:red;">Student Area of Intrest Using<br> Database App</h1></b></i></u>
+</center>
+</head>
+<body>	
+<div style="background-color: orange;height:100px; text-align: left ;">
+  </div>
+<h4>
+<button type="button" id="new" onclick="C:\xampp\htdocs\new">NEW</button>
+<button type="button" id="subjects" onclick="open(this.id)">SUBJECTS</button>
+<button type="button" id="indoor" onclick="open()">INDOOR GAMES</button>
+<button type="button">OUTDOOR GAMES</button>
+<button type="button">MOVIES</button>
+<button type="button">MUSIC</button>
+<button type="button">READING BOOKS</button>
+</h4>
+
+<div>
+  <img src="image3.jpg" height="600" width="1400px"/img>
+</div>
+</body>
+
+<script>
+function open(id)
+{
+ data(this.id);
+}
+</script>
+
+
+</html>
